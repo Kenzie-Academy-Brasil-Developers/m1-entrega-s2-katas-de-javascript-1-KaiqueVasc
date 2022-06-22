@@ -105,11 +105,17 @@ function multiplesOfFiveBackwards() {
 }
   console.log(multiplesOfFiveBackwards())
 
-
-
 function squareNumbersBackwards() {
-    
-  
+  let lista = []
+  for(let num = 100; num >=0 ; num--){
+  for(let x = 100; x >=0; x--){
+    if(x*x == num ){
+      lista.push(num)
+    }
+  }
 }
+    return lista; 
+}
+  console.log(squareNumbersBackwards())
 
 
