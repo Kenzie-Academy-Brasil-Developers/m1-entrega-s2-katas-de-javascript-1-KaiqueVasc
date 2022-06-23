@@ -1,6 +1,6 @@
 function oneThroughTwenty() {
   let lista =[];
-  for(let num = 0;num<=20;num++){
+  for(let num = 1;num<=20;num++){
     lista.push(num)
   }
    return lista;
@@ -11,7 +11,7 @@ function oneThroughTwenty() {
 
 function evensToTwenty() {
   let lista = []
-  for(let num = 0; num <= 20 ; num++){
+  for(let num = 1; num <= 20 ; num++){
     if (num% 2 == 0){
       lista.push(num)
     } 
@@ -34,7 +34,7 @@ function oddsToTwenty() {
 
 function multiplesOfFive() {
   let lista = []
-  for(let num = 0;num <=100; num++){
+  for(let num = 1;num <=100; num++){
     if (num% 5 == 0 ){
       lista.push(num)
     }
@@ -46,7 +46,7 @@ function multiplesOfFive() {
 
 function squareNumbers() {
   let lista = []
-  for(let num = 0; num<=100;num++){
+  for(let num = 1; num<=100;num++){
     for( let x = 0; x<=100; x++){
       if(x * x == num){
         lista.push(num)
@@ -60,7 +60,7 @@ function squareNumbers() {
 
 function countingBackwards() {
   let lista = []
-  for(let num = 20; num >=0; num-- ){
+  for(let num = 20; num >=1; num-- ){
     lista.push(num)
   }
     return lista;
@@ -71,7 +71,7 @@ function countingBackwards() {
 
 function evenNumbersBackwards() {
   let lista  = []
-   for(let num = 20; num >=0; num--){
+   for(let num = 20; num >=1; num--){
     if(num% 2 == 0){
       lista.push(num);
     }
@@ -96,7 +96,7 @@ function oddNumbersBackwards() {
 
 function multiplesOfFiveBackwards() {
   let lista = []
-  for(let num = 100; num >=0; num --){
+  for(let num = 100; num >=1; num --){
     if(num% 5 == 0 ){
       lista.push(num)
     }
@@ -107,7 +107,7 @@ function multiplesOfFiveBackwards() {
 
 function squareNumbersBackwards() {
   let lista = []
-  for(let num = 100; num >=0 ; num--){
+  for(let num = 100; num >=1 ; num--){
   for(let x = 100; x >=0; x--){
     if(x*x == num ){
       lista.push(num)
